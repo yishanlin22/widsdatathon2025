@@ -1,0 +1,27 @@
+# Ignore all files in the data folder
+/data/*
+# But keep an empty placeholder file
+!data/.gitkeep
+
+# Ignore Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large intermediate files
+*.csv
+*.tsv
+*.xlsx
+*.npy
+*.npz
+*.h5
+*.pkl
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
